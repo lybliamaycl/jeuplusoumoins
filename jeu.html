@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <link rel="stylesheet" type="text/css" href=" ./assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jeu du plus ou du moins</title>
+</head>
+
+<body>
+<div class="h-100">
+    
+<!-- début hamburger-->
+    <div class="nav-toggle">
+            <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="nav f1">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./jeu.html">Jeu</a></li>
+            </ul>
+
+            <img src="bird.png" alt="bird" class="img-fluid bird">
+    </nav>
+<!-- fin hamburger -->
+
+    <header class="container h-25 p-3">
+        <h1 class="c3 f2 fs30 text-center">A vous de jouer !</h1>
+    </header>
+
+    <section class="container h-75">
+        <div class="row align-items-center h-100">
+
+            <article class="col-md-12 f1 fs16 p-3 h-50">
+                <div class="row">
+
+                    <div id="plus" class="col-md-6"><img src="./assets/img/plus.png" alt="image plus" class="w-50"></div>
+
+                    <div id="moins" class="col-md-6"><img src="./assets/img/moins.png" alt="image plus" class="w-50"></div>
+                    
+                </div>
+            </article>
+        
+
+            <article class="col-md-12 f1 fs16 p-3 h-50">
+                <form class="text-center">
+                    <p><label for="test" class="">Combien y a-t-il de pétales sur ma rose?</label></p>
+                    <p><input id="test" type="text" placeholder="Saisir un nombre"/> <button id="btn" class="btn">Envoyer</button></p>
+                    
+                </form>
+            </article>
+
+            <div id="bravo" class="d-flex flex-column align-items-center justify-content-center f1 fs16">
+                <div class="typewriter text-center">
+                    <p class="c3 f2">Félicitations, vous avez gagné !</p>
+                    <button id="btn2" class="btn">Rejouer</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/hamburger.js"></script>
+
+</body>
+</html>
